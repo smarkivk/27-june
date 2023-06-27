@@ -1,0 +1,12 @@
+// Function to add two numbers
+function addNumbers(num1, num2) {
+  return num1 + num2;
+}
+
+// Prompt the user to enter two numbers
+let number1 = parseFloat(prompt("Enter the first number:"));
+let number2 = parseFloat(prompt("Enter the second number:"));
+
+// Call the addNumbers function and display the result
+let sum = addNumbers(number1, number2);
+console.log("The sum of " + number1 + " and " + number2 + " is: " + sum);
